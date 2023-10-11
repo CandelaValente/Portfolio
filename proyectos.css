@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(241, 230, 238);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+body main div img {
+    width: 200px;
+    height: auto;
+    justify-content: center;
+}
+
+main div {
+    background-color: rgb(190, 158, 219);
+    width: 200px;
+    height: auto;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 3%;
+
+}

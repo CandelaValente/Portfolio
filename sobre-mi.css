@@ -1,0 +1,36 @@
+body main{
+    background-color: rgb(241, 230, 238);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+span p{
+    width: 45%;
+    text-align: justify;
+    padding: 5% 10% 10% 10%;
+
+}
+span h3{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: rgb(163, 116, 207);
+    border-radius: 2px;
+}
+div div{
+    width: 100px;
+    height: 54px;
+    margin: 4%;
+    justify-content: space-between;
+    background-color: rgb(202, 174, 228);
+    border-radius: 3px;
+    text-align: center;
+}
+section{
+    grid-column: 2;
+}

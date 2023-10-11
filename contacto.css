@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(241, 230, 238);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+body div {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+}
+p{
+    margin: 6%;
+    font-size: 20px;
+}
+
+a {
+    margin: 6%;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(223, 193, 252);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
