@@ -1,11 +1,11 @@
-body {
-    background-color: rgb(241, 230, 238);
+body main {
+    background-color:  rgb(231, 213, 225);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
-body div {
+body main div {
     display: flex;
     justify-content: center;
     justify-content: space-around;
