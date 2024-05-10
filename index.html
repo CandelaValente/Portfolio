@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>candela valente portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
@@ -13,7 +13,7 @@
     <header>
         <nav>
 
-            <a class="nav-link" href="#inicio">inicio</a>
+            <a class="nav-link" href="#inicio" onclick="openInicio(this)">inicio</a>
 
             <a href="#proyectos">proyectos</a>
 
@@ -24,24 +24,27 @@
         </nav>
     </header>
     <main>
+        <button id="buttonInicio" onclick="buttonBienvenida()">Bienvenida! click para volver a ver</button>
         <section>
-            <div id="inicio">
-
-
-                <img src="/imagenes/yo en 350px.png" alt="" id="yo">
-
-                <img src="imagenes\marco.png" alt="" id="marco">
-
-
-                <h1>Candela Valente <span>Portfolio</span></h1>
-                <p id="p">Hola, mi nombre es Candela. soy programadora web full stack junior. Te invito a darle un
-                    vistazo
-                    a
-                    algunos de
-                    mis proyectos.
-                </p>
-
-            </div>
+            <div id="inicio" >
+                <div id="title">
+                  <h1>Candela Valente Portfolio</h1>
+                  <div>
+                    <button>_</button>
+                    <button>☐</button>
+                    <button onclick="closeInicio(this)">x</button>
+                  </div>
+                </div>
+                <section>
+                  <div>
+                    <p>
+                      Hola, mi nombre es Candela. soy programadora web full stack junior.
+                      Te invito a darle un vistazo a algunos de mis proyectos.
+                    </p>
+                    <img src="/imagenes/yo en 350px.png" alt="" id="yo" />
+                  </div>
+                </section>
+              </div>
         </section>
         <section id="proyectos">
             <iframe src="proyectos.html" frameborder="0">proyectos</iframe>
@@ -67,5 +70,5 @@
         </nav>
     </footer>
 </body>
-
+<script src="./script.js"></script>
 </html>
